@@ -1,0 +1,14 @@
+
+
+/**
+  盒子px转rem
+ */
+ @function remB($px) {
+    @return ($px/75) * 1rem;
+}
+/**
+    字号px转rem
+   */
+@function remF($px) {
+    @return ($px/64) * 0.853333333rem;
+}
