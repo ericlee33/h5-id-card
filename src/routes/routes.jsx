@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { Switch, Route, Redirect, BrowserRouter as Router } from 'react-router-dom';
-import { routesConfig } from './routesConfig';
 import { useSelector } from 'react-redux';
 import Photo from '../views/photo/photo';
 
