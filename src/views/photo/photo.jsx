@@ -8,7 +8,6 @@ import {
     showToast,
 } from '../../utils/toast';
 import styles from './photo.module.scss';
-import BasicLayout from '../../layouts/BasicLayout/BasicLayout';
 import { PictureOutlined, LeftOutlined } from '@ant-design/icons';
 import { startCompress } from '../../utils/compressBase64';
 import { withRouter } from 'react-router';
